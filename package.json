@@ -11,7 +11,11 @@
   "engines": {
     "node": ">=4.0"
   },
-  "keywords": ["serverless", "email", "mailer"],
+  "keywords": [
+    "serverless",
+    "email",
+    "mailer"
+  ],
   "scripts": {
     "test": "istanbul cover node_modules/mocha/bin/_mocha lib/__test__ -- -R spec --recursive",
     "lint": "eslint .",
@@ -33,9 +37,11 @@
   },
   "dependencies": {
     "bluebird": "^2.10.1",
-    "nodemailer": "^1.5.0",
+    "dotenv": "^2.0.0",
     "email-templates": "^2.0.1",
+    "graphiql": "^0.9.3",
     "handlebars": "^3.0.0",
-    "dotenv": "^2.0.0"
+    "nodemailer": "^1.5.0",
+    "nodemailer-mailgun-transport": "^1.2.4"
   }
 }

@@ -1,10 +1,10 @@
 {
-  "from": "eahefnawy@gmail.com",
-  "to": "eahefnawy@gmail.com",
-  "subject": "Hello",
+  "from": "leads@beijaflor.io",
+  "to": "yamada@beijaflor.io",
+  "subject": "Hello World",
   "template": "welcome",
   "context": {
-    "first_name": "Sam",
-    "last_name": "Smith"
+    "first_name": "Pedro",
+    "last_name": "Yamada"
   }
 }
